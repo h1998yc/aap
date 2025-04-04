@@ -1,6 +1,6 @@
 ---
 - name: create group
-  hosts: db
+  hosts: serverb.test.com
   tasks:
   - name: using group module
     group:
